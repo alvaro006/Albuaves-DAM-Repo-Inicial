@@ -15,20 +15,14 @@ Esta sección demuestra la operativa del proyecto mediante capturas de pantalla,
 ### 1.1. Llamada a la API en el Navegador
 
 Se muestra la respuesta del **Servidor (Node.js)** al ser consultado directamente mediante el navegador.
+
 <img width="1918" height="200" alt="image" src="https://github.com/user-attachments/assets/8637fe53-4012-46a9-8e08-2ea8fd690e8f" />
-
-
-**[Aquí pega la CAPTURA DE PANTALLA 1]**
-
-> *Captura obtenida al acceder a la ruta `http://localhost:3000/albuaves` con el servidor en ejecución, mostrando la estructura JSON del objeto de respuesta.*
 
 ### 1.2. Java/Kotlin Ejecutándose en la Terminal
 
 Se muestra la ejecución del **Cliente (Kotlin)**, confirmando la conexión exitosa a la API local, la recepción de la respuesta y la correcta deserialización de los datos.
 
-**[Aquí pega la CAPTURA DE PANTALLA 2]**
-
-> *Captura obtenida de la terminal de Windows tras ejecutar `start-client.bat`, donde se valida la comunicación con el servidor y la impresión de los datos recibidos (Mensaje, Versión, Fecha).*
+<img width="1380" height="492" alt="image" src="https://github.com/user-attachments/assets/2381be4f-090c-4d1b-87df-afaff06f5eba" />
 
 ---
 
