@@ -15,6 +15,8 @@ Esta sección demuestra la operativa del proyecto mediante capturas de pantalla,
 ### 1.1. Llamada a la API en el Navegador
 
 Se muestra la respuesta del **Servidor (Node.js)** al ser consultado directamente mediante el navegador.
+<img width="1918" height="200" alt="image" src="https://github.com/user-attachments/assets/8637fe53-4012-46a9-8e08-2ea8fd690e8f" />
+
 
 **[Aquí pega la CAPTURA DE PANTALLA 1]**
 
