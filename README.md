@@ -68,7 +68,7 @@ Para replicar y ejecutar este entorno de desarrollo, se requiere:
 
 * **Ruta del Script:** `./server/start-server.bat`
 * **Contenido del Script:**
-    ```@echo off
+    ``` @echo off
 REM Este script inicia el servidor Node.js en Windows.
 echo Iniciando la API de Albuaves en el puerto 3000...
 echo ----------------------------------------------------
@@ -77,8 +77,7 @@ node server.js
 
 REM 'pause' es opcional, pero evita que la ventana se cierre inmediatamente
 REM si el servidor tiene un error al iniciar.
-pause
-    ```
+pause ```
 * **Uso:** Abrir la línea de comandos, navegar a la carpeta `server/` y ejecutar `start-server.bat`.
 
 ### 3.3. Scripts de Compilación y Puesta en Marcha del Cliente
@@ -87,7 +86,7 @@ pause
 
 * **Ruta del Script:** `./client/start-client.bat`
 * **Contenido del Script:**
-    ```@echo off
+    ``` @echo off
 REM Este script compila y ejecuta el cliente Kotlin usando el wrapper de Gradle.
 echo Compilando y Ejecutando el Cliente Kotlin...
 echo ----------------------------------------------------
@@ -95,8 +94,7 @@ echo ----------------------------------------------------
 REM Ejecuta la tarea 'run' de Gradle. El '.\gradlew.bat' lo maneja todo.
 .\gradlew.bat run
 
-pause
-    ```
+pause ```
 * **Uso:** Abrir una **segunda línea de comandos** (dejando el servidor activo), navegar a la carpeta `client/` y ejecutar `start-client.bat`.
 
 ---
