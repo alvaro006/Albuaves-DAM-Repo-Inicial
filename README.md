@@ -1,14 +1,14 @@
 # 🌊 Tarea: Albuaves DAM - Repositorio Inicial
 
-**Estudiante:** [Tu Nombre Completo]
-**Módulo:** [Módulo Correspondiente, ej: Acceso a Datos]
+**Estudiante:** Alvaro Murillo Puchalt
+**Módulo:** Sostenibilidad
 **Plataforma de Desarrollo:** Windows (Scripts `.bat`)
 
 Este repositorio contiene la estructura inicial de la tarea Albuaves DAM, implementada con una API REST en **Node.js/Express** y un cliente de consola desarrollado en **Kotlin (JVM)**, demostrando la conexión entre ambos componentes.
 
 ---
 
-## 1. 📸 Evidencia de Funcionamiento (3 Puntos)
+## 1. Evidencia de Funcionamiento (3 Puntos)
 
 Esta sección demuestra la operativa del proyecto mediante capturas de pantalla, tal como se requiere en el enunciado.
 
@@ -26,7 +26,7 @@ Se muestra la ejecución del **Cliente (Kotlin)**, confirmando la conexión exit
 
 ---
 
-## 2. 💡 Tecnologías, Licencias y Motivación (3 Puntos)
+## 2. Tecnologías, Licencias y Motivación (3 Puntos)
 
 A continuación, se detallan las tecnologías elegidas para construir este repositorio inicial, junto con los enlaces de referencia y la justificación de las decisiones tomadas.
 
@@ -39,6 +39,7 @@ A continuación, se detallan las tecnologías elegidas para construir este repos
 | **Cliente** | **Kotlin (JVM)** | [https://kotlinlang.org/](https://kotlinlang.org/) | Apache 2.0 |
 | | **Gradle** | [https://gradle.org/](https://gradle.org/) | Apache 2.0 |
 | **HTTP/JSON** | **Ktor Client** y **Gson** | [https://ktor.io/](https://ktor.io/) y [https://github.com/google/gson](https://github.com/google/gson) | Apache 2.0 |
+| **Herramienta** | **IntelliJ IDEA** | [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) | [Comunidad/Comercial] |
 | **Control de Versiones** | **Git/GitHub** | [https://github.com/](https://github.com/) | N/A |
 
 ### 2.2. Motivación de la Elección
@@ -50,9 +51,21 @@ A continuación, se detallan las tecnologías elegidas para construir este repos
 ---
 
 ## 3. ⚙️ Guía de Puesta en Marcha (Tutorial - HowTo) (4 Puntos)
-
 Esta sección explica el procedimiento de compilación y ejecución del proyecto, cumpliendo con el requisito de incluir la infraestructura y los scripts de puesta en marcha.
 
+### 3.0. Diagrama de Arquitectura Lógica
+
+El proyecto sigue un modelo Cliente-Servidor simple. El Cliente de Kotlin actúa como un consumidor de la API REST que proporciona el Servidor de Node.js, todo comunicado a través del protocolo HTTP en el puerto local 3000.
+
+
+
+**Flujo de la Petición:**
+
+1.  El Cliente Kotlin utiliza **Ktor Client** para enviar una solicitud `GET` a `http://localhost:3000/albuaves`.
+2.  La instancia de **Express** en el servidor intercepta la solicitud.
+3.  El servidor construye un objeto JSON simple.
+4.  El Cliente utiliza la librería **Gson** para deserializar el JSON y presentarlo en la consola.
+5.  
 ### 3.1. Infraestructura de Desarrollo y Pruebas
 
 Para replicar y ejecutar este entorno de desarrollo, se requiere:
@@ -100,6 +113,3 @@ REM Ejecuta la tarea 'run' de Gradle. El '.\gradlew.bat' lo maneja todo.
 
 ---
 
-## 📦 Entrega Final
-
-El elemento a adjuntar para la entrega es la **URL de este Repositorio de GitHub/GitLab**.
