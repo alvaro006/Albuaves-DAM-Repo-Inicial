@@ -1,14 +1,16 @@
 # 🌊 Tarea: Albuaves DAM - Repositorio Inicial
 
 **Estudiante:** Alvaro Murillo Puchalt
+
 **Módulo:** Sostenibilidad
+
 **Plataforma de Desarrollo:** Windows (Scripts `.bat`)
 
 Este repositorio contiene la estructura inicial de la tarea Albuaves DAM, implementada con una API REST en **Node.js/Express** y un cliente de consola desarrollado en **Kotlin (JVM)**, demostrando la conexión entre ambos componentes.
 
 ---
 
-## 1. Evidencia de Funcionamiento (3 Puntos)
+## 1. Evidencia de Funcionamiento
 
 Esta sección demuestra la operativa del proyecto mediante capturas de pantalla, tal como se requiere en el enunciado.
 
@@ -26,7 +28,7 @@ Se muestra la ejecución del **Cliente (Kotlin)**, confirmando la conexión exit
 
 ---
 
-## 2. Tecnologías, Licencias y Motivación (3 Puntos)
+## 2. Tecnologías, Licencias y Motivación
 
 A continuación, se detallan las tecnologías elegidas para construir este repositorio inicial, junto con los enlaces de referencia y la justificación de las decisiones tomadas.
 
@@ -50,7 +52,7 @@ A continuación, se detallan las tecnologías elegidas para construir este repos
 
 ---
 
-## 3. ⚙️ Guía de Puesta en Marcha (Tutorial - HowTo) (4 Puntos)
+## 3. ⚙️ Guía de Puesta en Marcha
 Esta sección explica el procedimiento de compilación y ejecución del proyecto, cumpliendo con el requisito de incluir la infraestructura y los scripts de puesta en marcha.
 
 ### 3.0. Diagrama de Arquitectura Lógica
